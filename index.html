@@ -1,0 +1,99 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio Project</title>
+</head>
+<body>
+    <nav class="tab">
+    <button class="tablinks" onclick="openCity(event, 'About')">About Me</button>
+    <div class="line"></div>
+    <button class="tablinks" onclick="openCity(event, 'Game')">Games/Game Related Projects</button>
+    <div class="line"></div>
+    <button class="tablinks" onclick="openCity(event, 'Misc')">Misc. Projects</button>
+</nav>
+    
+    <div class="content-container">
+        <div id="About" class="tabcontent">
+            <h3>About Me</h3>
+            <p>Welcome to my portfolio.</p>
+        </div>
+        
+        <div id="Game" class="tabcontent">
+            <h3>Games and Projects</h3>
+            <div class="expandable-grid">
+                <!-- Project 1 -->
+                <div class="expandable-box">
+                    <div class="box-header" onclick="toggleBox(this)">
+                        <h4>Project 1</h4>
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="box-content">
+                        <img src="Rotating_earth_(large).gif" alt="Project 1" class="project-image">
+                        <p>Description of project 1. This is a detailed explanation of what the project is about.</p>
+                        <a href="https://www.youtube.com/"> Download</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="expandable-box">
+                    <div class="box-header" onclick="toggleBox(this)">
+                        <h4>Project 2</h4>
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="box-content">
+                        <img src="/api/placeholder/300/200" alt="Project 2" class="project-image">
+                        <p>Description of project 2. This is a detailed explanation of what the project is about.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Misc" class="tabcontent">
+            <h3>Miscellaneous Projects</h3>
+            <div class="expandable-grid">
+                
+                <div class="expandable-box">
+                    <div class="box-header" onclick="toggleBox(this)">
+                        <h4>Misc Project 1</h4>
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="box-content">
+                        <img src="/api/placeholder/300/200" alt="Misc Project 1" class="project-image">
+                        <p>Description of miscellaneous project 1.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="expandable-box">
+                    <div class="box-header" onclick="toggleBox(this)">
+                        <h4>Misc Project 2</h4>
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="box-content">
+                        <img src="/api/placeholder/300/200" alt="Misc Project 2" class="project-image">
+                        <p>Description of miscellaneous project 2.</p>
+                    </div>
+                  </div>
+                    
+
+                  <div class="expandable-box">
+                      <div class="box-header" onclick="toggleBox(this)">
+                          <h4>Misc Project 3</h4>
+                          <span class="expand-icon">+</span>
+                      </div>
+                      <div class="box-content">
+                          <img src="/api/placeholder/300/200" alt="Misc Project 3" class="project-image">
+                          <p>Description of miscellaneous project 3.</p>
+                      </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="extras.js"></script>
+</body>
+</html>
