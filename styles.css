@@ -15,6 +15,13 @@ img{
   min-height: 450px;
 }
 
+a{
+  color: skyblue
+}
+a:hover{
+  color:purple;
+}
+
 .main-header h1 {
   font-size: 2.5rem;
   margin: 0;
