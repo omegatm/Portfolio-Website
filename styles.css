@@ -8,12 +8,6 @@
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-img{
-  max-width: 322px;
-  max-height:450px;
-  min-width: 322px;
-  min-height: 450px;
-}
 
 a{
   color: skyblue
@@ -157,6 +151,42 @@ nav.tab {
   border-radius: 4px;
   margin: 0 auto 15px;
   display: block;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.profile-image {
+  width: 150px; 
+  height: auto;
+  border-radius: 8px; 
+}
+
+.about-text {
+  display: flex;
+  flex-direction:column;
+  gap: 10px; 
+  max-width: 600px; 
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
 }
 
 .line{
